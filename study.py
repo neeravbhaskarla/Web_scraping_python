@@ -10,7 +10,7 @@ try:
 except ValueError:
     print("Enter Only in Numbers")
     quit()
-print("Enter the Subjects you want to study: or type '[regular] for 4-1' or '[previous] for 3-2' or '[supply] for 3-1'")
+print("Enter the Subjects you want to study: or type '[regular] for 4-1' or '[previous] for 3-2' or '3-1'")
 subjects = [i for i in input().split(" ")]
 if subjects[0] =='supply':
     del(subjects)
